@@ -1,91 +1,82 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Gerwyn
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+# Gerwyn Ng
+
+<!-- gerwynng (at) outlook (dot) com -->
+
+
+<div id="contacts">
+<a id="email"> gerwynng [at] outlook [dot] com</a> 
+</div>
 
 <div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
+<a href="https://gerwynng.github.io"
+onclick="getOutboundLink('LinkedIn'); return true;"
+target="_blank">
+Resume</a> |
+<a href="https://www.linkedin.com/in/gerwynng/"
+onclick="getOutboundLink('LinkedIn'); return true;"
+target="_blank">
+LinkedIn</a> |
+<a href="https://www.kaggle.com/gerwynng/"
+onclick="getOutboundLink('Kaggle'); return true;"
+target="_blank">
+Kaggle</a> |
+<a href="https://github.com/gerwynng/"
+onclick="getOutboundLink('Github'); return true;"
+target="_blank">
+Github</a>
 </div>
 
 
-## Currently
 
-Standing on the shoulders of giants
+## Experience
 
-### Specialized in
+`2021-present`
+**Ahrefs**, *Data Scientist*
 
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
+- Spearheaded internal evaluation frameworks for projects such as generative applications and search engine quality assurance.
+- Built a Cross-Modal Image Search system at billions scale, optimizing offline inference and storage for real-time performance.
+- Implemented end-to-end search pipelines with a web-scale lexical search system to deliver user-facing search outputs.
+- Designed a multi-step LLM workflow to generate supplemental generations, enabling users to derive value from search.
 
 
-### Research interests
 
-Cooling, power series, optics, alchemy, planetary motions, apples.
+`2020-2021`
+**Singapore Pools**, *Data Scientist*
 
+- Built time series models to forecast product-level sales (short time series).
+- Designed statistical hypothesis tests to analyze RNG integrity in lottery betting systems.
+- Implemented a time series regression prediction of cannibalization and synergy effects for retail site selection.
+- Formalized a community detection-based fraud detection solution across hundreds of millions of transactions data.
 
 ## Education
 
-`1654-1660`
-__The King's School, Grantham.__
+`2019-2020`
+**Master of Science, Economics**, *Singapore Management University*
 
-`June 1661 - now`
-__Trinity College, Cambridge__
+* Econometrics Track
+* Dean's List AY 2019/2020
 
-- Sizar
+`2016-2019`
+**Bachelor of Science, Economics**, *Singapore Management University*
 
-`1667 - death`
-__Trinity College, Cambridge__
-
-- Fellow
-
+- Summa Cum Laude
+- Dean's List 2017, 2018, 2019
 
 
-## Awards
+## Achievements
 
-`2012`
-President, *Royal Society*, London, UK
+**Kaggle**, Competitions Expert
 
-Associate, *French Academy of Science*, Paris, France
+## Academic Projects
 
+[Exploring the Theta Method](./media/Exploring_the_Theta_Method.pdf), **MSc Term Paper**, *Singapore Management University*, 2020.
 
-
-## Publications
-
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-
-### Journals
-
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
+National Data Science Challenge Beginner, **Shopee**, 2018.
+- Ranked 18th of 360 for Product Category Classification (Image and Text).
 
 
-## Occupation
-
-`1600`
-__Royal Mint__, London
-
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
-
-
-
-<!-- ### Footer
-
-Last updated: May 2013 -->
-
-
+<br/>Last updated: March 2025<br/><br/>
