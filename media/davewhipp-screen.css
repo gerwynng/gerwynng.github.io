@@ -162,6 +162,20 @@ a:hover {
 	color:#39f
 }
 
+#contacts {
+    margin-top: 1em;  /* Adds spacing above */
+    position: relative;
+    left: 25%;  /* Aligns with the rest of the content */
+    color: #000000;
+    font-family: Monaco, Menlo, monospace, sans-serif;
+    font-size: 90%;
+}
+
+#contacts a {
+    text-decoration: none;
+    color: inherit;
+}
+
 #webaddress {
 	margin-top: 1em;
 	position: relative;
