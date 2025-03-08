@@ -39,16 +39,14 @@ Github</a>
 
 - Spearheaded internal evaluation frameworks for projects such as generative applications and search engine quality assurance.
 - Built a Cross-Modal Image Search system at billions scale, optimizing offline inference and storage for real-time performance.
-- Implemented end-to-end search pipelines with a web-scale lexical search system to deliver user-facing search outputs.
-- Designed a multi-step LLM workflow to generate supplemental generations, enabling users to derive value from search.
-
-
+- Implemented end-to-end search pipelines with a web-scale lexical search system to deliver user-facing search results.
+- Designed a multistep LLM workflow to generate supplemental generations, enabling users to derive value from search experience.
 
 `2020-2021`
 **Singapore Pools**, *Data Scientist*
 
-- Built time series models to forecast product-level sales (short time series).
-- Designed statistical hypothesis tests to analyze RNG integrity in lottery betting systems.
+- Built time series models to forecast product-level sales.
+- Designed statistical hypothesis tests to analyze the integrity of RNG in lottery betting systems.
 - Implemented a time series regression prediction of cannibalization and synergy effects for retail site selection.
 - Formalized a community detection-based fraud detection solution across hundreds of millions of transactions data.
 
@@ -69,14 +67,17 @@ Github</a>
 
 ## Achievements
 
-**Kaggle**, Competitions Expert
+**Kaggle**, Competitions Masters
+
+- LLMs - You Can't Please Them All, 2025. *Placed **11th** of 1692 teams (Gold).*
+- Stable Diffusion - Image to Prompts, 2023. *Placed **4th** of 1231 teams (Gold).*
+
 
 ## Academic Projects
 
 [Exploring the Theta Method](./media/Exploring_the_Theta_Method.pdf), **MSc Term Paper**, *Singapore Management University*, 2020.
 
 National Data Science Challenge Beginner, **Shopee**, 2018.
-- Ranked 18th of 360 for Product Category Classification (Image and Text).
-
+- Placed 18th of 360 teams for Product Category Classification (Image and Text).
 
 <br/>Last updated: March 2025<br/><br/>
