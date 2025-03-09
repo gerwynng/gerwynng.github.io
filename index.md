@@ -77,7 +77,6 @@ Github</a>
 
 [Exploring the Theta Method](./media/Exploring_the_Theta_Method.pdf), **MSc Term Paper**, *Singapore Management University*, 2020.
 
-National Data Science Challenge Beginner, **Shopee**, 2018.
-- Placed 18th of 360 teams for Product Category Classification (Image and Text).
+National Data Science Challenge 2019 - Beginner, **Shopee**, *Placed **18th** of 360 teams*.
 
 <br/>Last updated: March 2025<br/><br/>
