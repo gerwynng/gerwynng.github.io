@@ -1,33 +1,14 @@
----
-layout: cv
-title: Gerwyn
----
 # Gerwyn Ng
 
-<!-- gerwynng (at) outlook (dot) com -->
-
-
 <div id="contacts">
-<a id="email"> gerwynng [at] outlook [dot] com</a> 
+<a id="email"> gerwynng [at] outlook [dot] com</a>
 </div>
 
 <div id="webaddress">
-<a href="https://gerwynng.github.io"
-onclick="getOutboundLink('LinkedIn'); return true;"
-target="_blank">
-Resume</a> |
-<a href="https://www.linkedin.com/in/gerwynng/"
-onclick="getOutboundLink('LinkedIn'); return true;"
-target="_blank">
-LinkedIn</a> |
-<a href="https://www.kaggle.com/gerwynng/"
-onclick="getOutboundLink('Kaggle'); return true;"
-target="_blank">
-Kaggle</a> |
-<a href="https://github.com/gerwynng/"
-onclick="getOutboundLink('Github'); return true;"
-target="_blank">
-Github</a>
+<a href="https://gerwynng.github.io" target="_blank">Resume</a> |
+<a href="https://www.linkedin.com/in/gerwynng/" target="_blank">LinkedIn</a> |
+<a href="https://www.kaggle.com/gerwynng/" target="_blank">Kaggle</a> |
+<a href="https://github.com/gerwynng/" target="_blank">Github</a>
 </div>
 
 
@@ -75,7 +56,7 @@ Github</a>
 
 ## Academic Projects
 
-[Exploring the Theta Method](./media/Exploring_the_Theta_Method.pdf), **MSc Term Paper**, *Singapore Management University*, 2020.
+[Exploring the Theta Method](./assets/Exploring_the_Theta_Method.pdf), **MSc Term Paper**, *Singapore Management University*, 2020.
 
 National Data Science Challenge 2019 - Beginner, **Shopee**, *Placed **18th** of 360 teams*.
 
