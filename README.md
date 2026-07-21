@@ -1,5 +1,5 @@
 # gerwynng.github.io
 
-**Preview locally** (needs `brew install pandoc`): `./build.sh && python3 -m http.server -d dist`
+**Preview locally** (needs `brew install pandoc`): `./serve.sh` — builds and serves `dist/` on a free port.
 
 **Save a PDF:** open the page and print (⌘P).

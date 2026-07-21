@@ -1,0 +1,182 @@
+/* Base styles for screen and print; print.css layers paper-specific overrides. */
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+:root {
+	--bg: #ffffff;
+	--text: #1c1c1c;
+	--muted: #636363;
+	--accent: #bc412b;
+	--gutter: 8.5rem;
+	--gap: 2rem;
+	--content-offset: calc(var(--gutter) + var(--gap));
+	--mono: ui-monospace, Menlo, Monaco, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg: #16181a;
+		--text: #e4e2de;
+		--muted: #9c9c95;
+		--accent: #e07a5f;
+	}
+}
+
+body {
+	margin: 0 auto;
+	max-width: 60rem;
+	padding: 2.75rem 2rem 2.5rem;
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	line-height: 1.55;
+	color: var(--text);
+	background: var(--bg);
+}
+
+h1, h2, h3, p, ul {
+	margin: 0;
+}
+
+a {
+	color: inherit;
+}
+
+a:hover {
+	color: var(--accent);
+}
+
+strong {
+	font-weight: 600;
+}
+
+/* Header block (name, contacts) aligns with the content column. */
+.level1 > :not(section) {
+	margin-left: var(--content-offset);
+}
+
+h1 {
+	font-size: 2.5rem;
+	font-weight: 650;
+	line-height: 1.1;
+	letter-spacing: -0.01em;
+}
+
+#contacts, #webaddress {
+	font-family: var(--mono);
+	font-size: 0.85rem;
+}
+
+#contacts {
+	margin-top: 1.4rem;
+}
+
+#webaddress {
+	margin-top: 0.3rem;
+	color: var(--accent);
+}
+
+#webaddress a {
+	text-decoration: none;
+}
+
+#webaddress a:hover {
+	text-decoration: underline;
+}
+
+/* Sections: heading sits in the left gutter, content flows beside it. */
+section.level2 {
+	display: grid;
+	grid-template-columns: var(--gutter) 1fr;
+	column-gap: var(--gap);
+	margin-top: 2.25rem;
+}
+
+section.level2 > h2 {
+	grid-column: 1;
+}
+
+section.level2 > :not(h2) {
+	grid-column: 2;
+	min-width: 0;
+}
+
+h2 {
+	padding-top: 0.2rem;
+	font-size: 0.8rem;
+	font-weight: 600;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+	text-align: right;
+	white-space: nowrap;
+	color: var(--accent);
+}
+
+h3 {
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+section.level3 + section.level3 {
+	margin-top: 1.2rem;
+}
+
+h3 em {
+	font-weight: 400;
+	font-style: normal;
+	color: var(--muted);
+}
+
+.date {
+	float: right;
+	margin-left: 1rem;
+	font-size: 0.85rem;
+	font-weight: 400;
+	color: var(--muted);
+	font-variant-numeric: tabular-nums;
+}
+
+ul {
+	margin-top: 0.35rem;
+	padding-left: 1.2rem;
+	list-style: disc;
+}
+
+li {
+	margin-top: 0.15rem;
+}
+
+section.level2 > p {
+	margin-bottom: 0.6rem;
+}
+
+footer {
+	margin-top: 2.25rem;
+	margin-left: var(--content-offset);
+	font-size: 0.8rem;
+	color: var(--muted);
+}
+
+@media (max-width: 640px) {
+	body {
+		padding: 2rem 1.25rem;
+	}
+
+	.level1 > :not(section),
+	footer {
+		margin-left: 0;
+	}
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	section.level2 {
+		display: block;
+	}
+
+	h2 {
+		text-align: left;
+		margin-bottom: 0.6rem;
+	}
+}
